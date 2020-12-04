@@ -7,7 +7,7 @@ type Packet struct {
 }
 
 type GetUniversalKuotaRs struct {
-	ListPacket []Packet
+	ListPacket []Packet `json:"listPacket"`
 }
 
 type GetUniversalKuotaRq struct {

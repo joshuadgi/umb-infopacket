@@ -20,6 +20,7 @@ func (r *RestHandler) InfoPacket(c echo.Context) error {
 	}
 	//err := c.Bind(request)
 	usc, err := r.Usecase.GetUniversalKuota(ctx, request)
+	fmt.Println("request :", usc)
 	if err != nil {
 		//error handling
 	}
@@ -46,6 +47,7 @@ func (r *RestHandler) InfoPacket(c echo.Context) error {
 
 	}
 	xmlResponse, err := xml.Marshal(apiResponse)
+	fmt.Println("xml :", xmlResponse)
 	if err!=nil{
 		//error handling
 	}

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6936eff-274a-4769-a4e0-32bbcdd810fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/infopacket.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery/umb.go" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/umb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/infopacket.go" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/infopacket.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/packet.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/packet.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/soar.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/soar.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/usecase.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607064119576</updated>
       <workItem from="1607064121594" duration="8403000" />
-      <workItem from="1607073572293" duration="3479000" />
+      <workItem from="1607073572293" duration="5234000" />
     </task>
     <servers />
   </component>

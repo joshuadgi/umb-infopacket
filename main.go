@@ -3,12 +3,13 @@ package main
 import (
 	"github.com/labstack/echo/v4"
 	"gitrepo.intra.excelcom.co.id/anthos/application-code/umb-infopacket/delivery"
+	"os"
 )
 
 func main(){
 	e:= echo.New()
 	delivery.RestAPI(e)
-	e.Logger.Fatal(e.Start(":8080"))
+	e.Logger.Fatal(e.Start(os.Getenv("PORT")))
 }
 
 /*test := &umb.UMB{
