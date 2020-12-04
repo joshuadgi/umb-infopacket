@@ -23,7 +23,6 @@ type ISoarService interface {
 }
 
 func (s soarService) GetUniversalQuota (ctx context.Context, request *model.GetUniversalKuotaRq) (response *model.GetUniversalKuotaRs, err error) {
-	rs := new(model.GetUniversalKuotaRs)
 	url := "https://run.mocky.io/v3/d574b085-140b-43f4-a750-43e8794a5f7b"
 
 	soarPayload := new(model.GetUniversalKuotaRq)
