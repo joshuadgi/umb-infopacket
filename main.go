@@ -9,7 +9,7 @@ import (
 func main(){
 	e:= echo.New()
 	delivery.RestAPI(e)
-	e.Logger.Fatal(e.Start(os.Getenv("PORT")))
+	e.Logger.Fatal(e.Start("0.0.0.0:"+os.Getenv("PORT")))
 }
 
 /*test := &umb.UMB{
